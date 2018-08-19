@@ -1,119 +1,206 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abba Time with Sainna | Home </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Abba Time with Sainna</title>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-  </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="bootstrap.js"></script>
 
-  <body>
+</head>
+<body>
 
-  <!--Header-->
-    <div id="header">
-      <div class="container">
-        <a id="header-title" href="index.html"> Abba Time </a>
-          <ul id="header-nav">
-              <li> <button> Login/Sign Up </button> </li>
+<div class="page-header page-header-inverse">
 
-          </ul>
-      </div>
-    </div>
+    <a name="top-of-top"></a>
 
-    <!--Navbar -->
-    <div id="navbar">
+<!--Navbar-->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <a id="nav-title" href="index.html"> Home </a>
-            <ul id="nav-items">
-                <li> <a href="all-posts.html"> Posts | </a> </li>
-                <li> <a href="about.html">About Me |</a> </li>
-                <li> <a href="#"> Contact Me |</a> </li>
-                <li> <a href="#">More </a> </li>
-            </ul>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target=".login-drop" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fas fa-user-circle"></i>
+                </button>
+
+                <a href="index.html" class="navbar-brand" id="brand-logo">Abba Time</a>
+            </div>
+            <div class="collapse navbar-collapse login-drop">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="#">
+                        <i class="fas fa-user"></i> Login </a>
+                        <a href="#">
+                        <i class="fas fa-user-plus"></i> Sign Up</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-  <!--Content-->
+<!--Nav bar 2-->
+    <div class="navbar navbar-default" id="navbar-second">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-nav-head-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-    <div id="content">
-
-      <div class="post-container">
-        <div class="post">
-          <div class="post-author">
-            <img class="author-avi" src="avatar.png">
-              <span class="author-name"> By: Author </span>
-          </div>
-        <p class="post-date"> Today </p>
-
-        <h3 class="post-title"> Title </h3>
-        <div class="post-content">
-
-          <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-             deserunt mollit anim id est laborum.
-           </p>
-
-           <a class="to-post" href="post.html"> Continue reading... </a>
-
+                <a href="#" class="navbar-brand"> <span class="glyphicon
+                    glyphicon-home" aria-hidden="true"></span> Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-head-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="All-Posts.html"> <span class="glyphicon
+                        glyphicon-book" aria-hidden="true"></span> Posts | </a></li>
+                    <li> <a href="About.html"> <span class="glyphicon
+                        glyphicon-user" aria-hidden="true"></span> About Me | </a></li>
+                    <li> <a href=""> <span class="glyphicon
+                        glyphicon-phone" aria-hidden="true"></span> Contact Me | </a></li>
+                </ul>
+            </div>
         </div>
-        </div>
-      </div>
-
-      <div class="post-container">
-        <div class="post">
-          <div class="post-author">
-            <img  class="author-avi" src="avatar.png">
-              <span class="author-name"> By: Author </span>
-          </div>
-        <p class="post-date"> Today </p>
-
-        <h3 class="post-title"> Title </h3>
-        <div class="post-content">
-
-          <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-             deserunt mollit anim id est laborum.
-           </p>
-
-           <a class="to-post" href="post.html"> Continue reading... </a>
-
-        </div>
-        </div>
-      </div>
 
     </div>
+</div>
 
-  <!--Footer-->
+<!--Page head-->
 
-    <footer>
-      <div class="footer-container">
-          <div class="column">
-              <h4> My Links </h4>
-              <p>
-                  <a href="#"> Facebook </a>
-                  <br>
-                  <a href="#"> Twitter </a>
-              </p>
-          </div>
-          <div class="column" id="story">
-              <h4> My Story </h4>
-              <p> Hey there, my name is Sainna, as you could probably tell. <br>
-                  I'm an aspiring blogger hoping to inspire some with tales from my
-                  journey through faith.
-              </p>
-          </div>
-      </div>
-    </footer>
+<div class="container jumbo-bg-color">
+    <div class="jumbotron">
+        <h1> <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Abba Time with Sainna </h1>
+        <p id="jumbo-text">
+            A deep dive into the Words of our Father through the eyes of a flawed, desperately-seeking-Christ,
+            (seasonally) broke college student. Let's explore Abba together!
+        </p>
+    </div>
+</div>
 
-    <script src="main.js" type="text/javascript"></script>
-  </body>
+<hr class="hr-divide">
 
+<!--Page content-->
+
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="col-lg-3" >
+                <div class="author-prof post-wrap-style">
+                    <!--Author profile-->
+                    <div class="blog-author">
+                        <img class="author-avi thumbnail" src="avatar.png">
+                        <p>
+                            Hey there, my name is Sainna, as you could probably tell.
+                            I'm an aspiring blogger hoping to inspire some with tales from my journey through faith.
+                        </p>
+                        <hr>
+                        <div class="featured-post">
+                            <h4>Featured Post:</h4>
+                            <a href="#">This is a featured post</a>
+                            <br>
+                            <a href="#">This is another featured post</a>
+                        </div>
+
+                        <hr>
+                        <a href="#"> <i class="fab fa-facebook-square"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="post-content">
+                <!--This will show the posts-->
+                    <div class="post-wrap-style">
+
+                        <h3>Title </h3>
+                        <h6>Today</h6>
+
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+
+                        <a class="to-post" href="post.html"> Continue reading... </a>
+
+                    </div>
+
+                    <div class="post-wrap-style">
+
+                        <h3>Title </h3>
+                        <h6>Today</h6>
+
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+
+                        <a class="to-post" href="post.html"> Continue reading... </a>
+
+                    </div>
+                    <div class="post-wrap-style">
+
+                        <h3>Title </h3>
+                        <h6>Today</h6>
+
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+
+                        <a class="to-post" href="post.html"> Continue reading... </a>
+
+                    </div>
+                    <div class="post-wrap-style">
+
+                        <h3>Title </h3>
+                        <h6>Today</h6>
+
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+
+                        <a class="to-post" href="post.html"> Continue reading... </a>
+
+                    </div>
+
+                    <div class="btn btn-primary btn-lg more-btn"> More Posts
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
+                    <a href="#top" class="btn btn-primary btn-lg up-arrow">
+                        <i class="fas fa-arrow-up "></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
 </html>
