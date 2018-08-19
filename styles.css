@@ -1,0 +1,338 @@
+html {
+    font-family: Montserrat, sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+    padding-top: 59px;
+
+}
+
+
+/*First Navbar*/
+.navbar-inverse {
+    height: 100px;
+    font-family: Montserrat, sans-serif;
+    background-color: #dc143c;
+    border-color: #f0f0f0;
+}
+
+.navbar-inverse .container {
+    padding-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand  {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-right a {
+    float: right;
+}
+
+/*Second Navbar*/
+
+#brand-logo{
+    font-size: 2.5em;
+}
+
+.navbar-default {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #333333;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: crimson;
+}
+
+.navbar-default .navbar-brand  {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: crimson;
+}
+
+
+/*Index Content*/
+
+.jumbo-bg-color {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.7em;
+
+}
+
+
+#jumbo-text {
+    font-size: 0.4em;
+    text-transform: none;
+    font-weight: normal;
+    text-align: left;
+}
+
+.jumbotron {
+    width: 100%;
+    float: none;
+    background-color: crimson;
+    border: #f0f0f0 1px solid;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 5px 15px #333333 ;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+
+.row {
+    background-color: #f0f0f0
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+.hr-divide {
+    max-width: 800px;
+    margin-bottom: 3%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.author-prof {
+    float: left;
+    height: 500px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-content {
+    float: right;
+    padding: 10px;
+
+
+}
+
+.post-wrap-style {
+    border: #f0f0f0 1px solid;
+    border-radius: 5px;
+    padding: 3%;
+    margin-bottom: 2%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.post-wrap-style h3 {
+    font-weight: bold;
+}
+.post-wrap-style a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.post-wrap-style a:hover {
+    color: black;
+}
+
+.post-wrap-style h6 {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+
+.more-btn {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(6, 6, 6, 0.19);
+    background-color: #666666;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.more-btn:hover {
+    background-color: crimson;
+}
+
+
+.up-arrow {
+    float: right;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(6, 6, 6, 0.19);
+    background-color: #666666;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.up-arrow:hover {
+    background-color: crimson;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.blog-author {
+    vertical-align: center;
+    padding: 5%;
+
+}
+
+.blog-author img {
+    margin-left: 10%;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+}
+
+.blog-author i {
+    font-size: 1.85em;
+    letter-spacing: 0.05em;
+}
+
+.featured-post a {
+    margin: 50px auto;
+}
+
+
+/*About Page*/
+
+.about {
+    font-family: Montserrat, sans-serif;
+
+}
+
+.about-author {
+    width: 100%;
+    margin: 0;
+}
+
+.about-author img {
+    width: 300px;
+    height: auto;
+    margin: auto 40%;
+    vertical-align: middle;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(6, 6, 6, 0.35);
+
+}
+
+.about-title, .about-content {
+    border: #f0f0f0 1px solid;
+    border-radius: 5px;
+    padding: 3%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(6, 6, 6, 0.19);
+    text-shadow: 0 5px 15px #333333;
+
+}
+
+.about-title{
+    font-weight: bold;
+    font-size: 3.2em;
+    text-decoration: underline;
+
+}
+
+.about-content {
+    margin-bottom: 7%;
+}
+
+
+/*All Blog*/
+
+.post-border {
+    font-family: Montserrat, sans-serif;
+}
+
+.post-border img {
+    padding: 5% 5% 0 5%;
+}
+
+.post-border .thumbnail {
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(6, 6, 6, 0.19);
+}
+
+.post-prev {
+    padding: 5%;
+}
+
+.post-name {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 3%;
+
+}
+
+.post-name a {
+    color: crimson
+}
+
+.post-name a:hover {
+    color: black;
+}
+
+
+.post-snippet {
+    padding-top: 2%;
+}
+
+.post-snippet h6 {
+   font-size: 0.7em;
+    font-weight: bold;
+}
+
+.post-snippet a {
+    float: right;
+    font-size: 1.37em;
+    color: crimson;
+}
+
+.post-snippet a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Post*/
+
+.blog-content {
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.1em;
+}
+
+.blog-content .post-wrap-style h3 {
+    text-decoration: underline;
+    font-size: 2.1em;
+    color: crimson;
+    width: 75%;
+    margin: 0;
+}
+
+.blog-content .post-wrap-style h6 {
+   padding-top: 2%;
+}
